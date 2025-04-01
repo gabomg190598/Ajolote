@@ -1,0 +1,352 @@
+[
+    {
+        "id": 1,
+        "name": "WinPE_detectipk",
+        "filename": "WinPE_detectipk.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 2,
+        "name": "WinPE_EnableNetFX35",
+        "filename": "WinPE_EnableNetFX35.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 5,
+        "name": "WinPE_checkmsupdatesonly",
+        "filename": "WinPE_checkmsupdatesonly.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 6,
+        "name": "WinPE_configuredrivers",
+        "filename": "WinPE_configuredrivers.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 7,
+        "name": "WinPE_languagesetup",
+        "filename": "WinPE_languagesetup.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },    
+    {
+        "id": 9,
+        "name": "WinPE_EnableRSAT",
+        "filename": "WinPE_EnableRSAT.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 11,
+        "name": "WinPE_installupdates",
+        "filename": "WinPE_installupdates.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 12,
+        "name": "WinPE_removeoffice",
+        "filename": "WinPE_removeoffice.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 13,
+        "name": "WinPE_disablebitlocker",
+        "filename": "WinPE_disablebitlocker.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },  
+    {
+        "id": 14,
+        "name": "WinPE_RemoveAppx",
+        "filename": "WinPE_RemoveAppx.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 15,
+        "name": "WinPE_HPImageAssistant",
+        "filename": "WinPE_HPImageAssistant.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 16,
+        "name": "WinPE_HPDocumentation",
+        "filename": "WinPE_HPDocumentation.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 17,
+        "name": "WinPE_HPSupportAssistant",
+        "filename": "WinPE_HPSupportAssistant.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },    
+    {
+        "id": 18,
+        "name": "WinPE_ProgrammableKey",
+        "filename": "WinPE_ProgrammableKey.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 19,
+        "name": "WinPE_HPHwDiagnosticUEFI",
+        "filename": "WinPE_HPHwDiagnosticUEFI.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 30,
+        "name": "WinPE_3p_AdobeReader",
+        "filename": "WinPE_3p_AdobeReader.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 31,
+        "name": "WinPE_3p_7zip",
+        "filename": "WinPE_3p_7zip.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 32,
+        "name": "WinPE_3p_GoogleChrome",
+        "filename": "WinPE_3p_GoogleChrome.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 33,
+        "name": "WinPE_3p_MozillaFirefox",
+        "filename": "WinPE_3p_MozillaFirefox.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 34,
+        "name": "WinPE_3p_Java",
+        "filename": "WinPE_3p_Java.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 50,
+        "name": "WinPE_ExecuteScript",
+        "filename": "WinPE_ExecuteScript.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 96,
+        "name": "WinPE_AddCustomFiles",
+        "filename": "WinPE_AddCustomFiles.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 98,
+        "name": "WinPE_PreSaveImage",
+        "filename": "WinPE_PreSaveImage.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 99,
+        "name": "WinPE_saveimage",
+        "filename": "WinPE_saveimage.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 1,
+        "name": "Windows_checkmsupdates",
+        "filename": "Windows_checkmsupdates.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 2,
+        "name": "Windows_ipk",
+        "filename": "Windows_ipk.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 3,
+        "name": "Windows_driverssetup",
+        "filename": "Windows_driverssetup.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 4,
+        "name": "Windows_setupoffice",
+        "filename": "Windows_setupoffice.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+	{
+        "id": 5,
+        "name": "Windows_RemoveAppx",
+        "filename": "Windows_RemoveAppx.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 6,
+        "name": "Windows_HPNotification",
+        "filename": "Windows_HPNotification.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 7,
+        "name": "Windows_HPPrivacySettings",
+        "filename": "Windows_HPPrivacySettings.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 8,
+        "name": "Windows_HPSureView",
+        "filename": "Windows_HPSureView.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 9,
+        "name": "Windows_HPCollaborationKb",
+        "filename": "Windows_HPCollaborationKb.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 10,
+        "name": "Windows_HPImageAssistant",
+        "filename": "Windows_HPImageAssistant.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 11,
+        "name": "Windows_InteractiveLight",
+        "filename": "Windows_InteractiveLight.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },  
+    {
+        "id": 12,
+        "name": "Windows_HPDocumentation",
+        "filename": "Windows_HPDocumentation.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },  
+    {
+        "id": 13,
+        "name": "Windows_HPPowerManager",
+        "filename": "Windows_HPPowerManager.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 14,
+        "name": "Windows_HPClientSecurityManager",
+        "filename": "Windows_HPClientSecurityManager.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 15,
+        "name": "Windows_HPSupportAssistant",
+        "filename": "Windows_HPSupportAssistant.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 20,
+        "name": "Windows_HPHwDiagnosticWin",
+        "filename": "Windows_HPHwDiagnosticWin.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 30,
+        "name": "Windows_3p_AdobeReader",
+        "filename": "Windows_3p_AdobeReader.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 31,
+        "name": "Windows_3p_7zip",
+        "filename": "Windows_3p_7zip.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 32,
+        "name": "Windows_3p_GoogleChrome",
+        "filename": "Windows_3p_GoogleChrome.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 33,
+        "name": "Windows_3p_MozillaFirefox",
+        "filename": "Windows_3p_MozillaFirefox.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 34,
+        "name": "Windows_3p_Java",
+        "filename": "Windows_3p_Java.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 50,
+        "name": "Windows_ExecuteScript",
+        "filename": "Windows_ExecuteScript.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 95,
+        "name": "Windows_lastreboot",
+        "filename": "Windows_lastreboot.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 96,
+        "name": "Windows_stopprocess",
+        "filename": "Windows_stopprocess.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 97,
+        "name": "Windows_savejob",
+        "filename": "Windows_savejob.ps1",
+        "environment":"Windows",
+        "enabled": true
+    },
+    {
+        "id": 98,
+        "name": "Windows_sysprep",
+        "filename": "Windows_sysprep.ps1",
+        "environment":"Windows",
+        "enabled": true
+    }
+]
