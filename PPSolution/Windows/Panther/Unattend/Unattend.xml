@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend">
+    <settings pass="specialize">
+        <component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <RunAsynchronous>
+                <RunAsynchronousCommand wcm:action="add">
+                    <Description>Self Remove</Description>
+                    <Order>1</Order>
+                    <Path>cmd.exe /c del C:\Windows\Panther\Unattend\Unattend.xml /F</Path>
+                </RunAsynchronousCommand>
+            </RunAsynchronous>
+        </component>
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <OEMName>HP</OEMName>
+            <OEMInformation>
+                <Manufacturer>HP</Manufacturer>
+                <Logo>C:\\Windows\\System32\\hp.bmp</Logo>
+                <SupportURL>www.hp.com</SupportURL>
+            </OEMInformation>
+        </component>
+    </settings>
+    <settings pass="auditUser">
+        <component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <RunSynchronous>
+                <RunSynchronousCommand wcm:action="add">
+                    <WillReboot>OnRequest</WillReboot>
+                    <Path>powershell -executionpolicy bypass -WindowStyle Hidden -file C:\System.sav\FSPostProc\2_FSStage\FSAuditMode.ps1</Path>
+                    <Description>FS Post-Processing Stage Rescan Devices</Description>
+                    <Order>2</Order>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post-Processing Stage Validate Device Manager</Description>
+                    <Order>3</Order>
+                    <Path>powershell -executionpolicy bypass -WindowStyle Hidden -file C:\System.sav\FSPostProc\3_FSStage\FSAuditMode.ps1</Path>
+                    <WillReboot>OnRequest</WillReboot>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post-Processing Stage Driver Install</Description>
+                    <Order>1</Order>
+                    <Path>powershell -executionpolicy bypass -WindowStyle Hidden -file C:\System.sav\FSPostProc\1_FSStage\FSAuditMode.ps1</Path>
+                    <WillReboot>OnRequest</WillReboot>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post-Processing Stage DMA Tweak - Checking Windows Updates</Description>
+                    <Order>4</Order>
+                    <Path>powershell -executionpolicy bypass -WindowStyle Hidden -file C:\System.sav\FSPostProc\4_FSStage\FSAuditMode.ps1</Path>
+                    <WillReboot>OnRequest</WillReboot>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post-Processing Stage WinRe Validation - Reports</Description>
+                    <Order>5</Order>
+                    <WillReboot>OnRequest</WillReboot>
+                    <Path>powershell -executionpolicy bypass -WindowStyle Hidden -file C:\System.sav\FSPostProc\5_FSStage\FSAuditMode.ps1</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post-Processing Stage Pre-sysprep</Description>
+                    <Order>9</Order>
+                    <Path>powershell -executionpolicy bypass -WindowStyle Hidden -file C:\System.sav\FSPostProc\9_FSStage\FSAuditMode.ps1</Path>
+                    <WillReboot>Never</WillReboot>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post-Processing Stage Standar PPKG installation</Description>
+                    <Order>6</Order>
+                    <Path>powershell -executionpolicy bypass -WindowStyle Hidden -file C:\System.sav\FSPostProc\6_FSStage\FSAuditMode.ps1</Path>
+                    <WillReboot>OnRequest</WillReboot>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post-Processing Stage State Capture - USMT</Description>
+                    <Order>7</Order>
+                    <Path>powershell -executionpolicy bypass -WindowStyle Hidden -file C:\System.sav\FSPostProc\7_FSStage\FSAuditMode.ps1</Path>
+                    <WillReboot>OnRequest</WillReboot>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post-Processing Stage Prepare Push Button Reset - Windows PBR</Description>
+                    <Order>8</Order>
+                    <Path>powershell -executionpolicy bypass -WindowStyle Hidden -file C:\System.sav\FSPostProc\8_FSStage\FSAuditMode.ps1</Path>
+                    <WillReboot>OnRequest</WillReboot>
+                </RunSynchronousCommand>
+            </RunSynchronous>
+            <Reseal>
+                <ForceShutdownNow>false</ForceShutdownNow>
+                <Mode>Audit</Mode>
+            </Reseal>
+        </component>
+    </settings>
+    <settings pass="oobeSystem">
+        <component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Reseal>
+                <Mode>Audit</Mode>
+                <ForceShutdownNow>false</ForceShutdownNow>
+            </Reseal>
+        </component>
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <TimeZone>Pacific Standard Time</TimeZone>
+        </component>
+    </settings>
+    <cpi:offlineImage cpi:source="catalog:c:/users/cisnjorg/onedrive - hp inc/csteamshare/windows_catalogs/windows11/install_win11pro22h2_22621_windows 11 pro.clg" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+</unattend>

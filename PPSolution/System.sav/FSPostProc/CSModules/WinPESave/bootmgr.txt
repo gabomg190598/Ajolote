@@ -1,0 +1,14 @@
+
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+device                  partition=\Device\HarddiskVolume1
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {current}
+resumeobject            {12b1436b-9ff1-11ec-9f8e-040e3c8bd23f}
+displayorder            {current}
+toolsdisplayorder       {memdiag}
+timeout                 30

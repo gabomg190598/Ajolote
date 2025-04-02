@@ -1,0 +1,8 @@
+[Step]
+    8_FSAuditMode
+[Order]
+    9
+[Description]
+    PREPARE PBR - RESET FUNCTION
+    RETRIEVE TPM INFORMATION
+    

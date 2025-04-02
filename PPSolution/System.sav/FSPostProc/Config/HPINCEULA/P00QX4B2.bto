@@ -1,0 +1,7 @@
+@IFFILE(c:\BTOs)
+	@MKDIR C:\system.sav\LOGS\OSIT\EULA
+	@SINGLEOBJ cmd.exe /c C:\SWSETUP\APP\PreOS.EUE\HP\HPINCEULA\X\install.cmd >> c:\system.sav\LOGS\OSIT\EULA\HPINCEULA.txt 2>&1
+@ELSE
+	@SINGLEOBJ cmd.exe /c C:\SWSETUP\APP\PreOS.EUE\HP\HPINCEULA\X\install.cmd >> c:\system.sav\logs\HPINCEULA.txt 2>&1
+@ENDIF
+

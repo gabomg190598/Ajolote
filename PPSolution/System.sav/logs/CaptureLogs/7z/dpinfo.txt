@@ -1,0 +1,6 @@
+select volume 0
+list disk
+list partition
+list volume
+detail disk
+exit

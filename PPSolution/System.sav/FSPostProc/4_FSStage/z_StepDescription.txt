@@ -1,0 +1,7 @@
+[Step]
+    4_FSAuditMode
+[Order]
+    5
+[Description]
+    P00W65-B2E - Tweak - Update DMASecurity_AllowedBuses
+    Install MS Updates

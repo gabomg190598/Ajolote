@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<assembly
+    xmlns="urn:schemas-microsoft-com:asm.v3"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    manifestVersion="1.0"
+    >
+  <assemblyIdentity
+      name="Microsoft-Windows-Twinui-PCShell"
+      version="0.0.0.0"
+      processorArchitecture="*"
+      language="neutral"
+      />
+  <migration
+    settingsVersion="3"
+    replacementSettingsVersionRange="0-2"
+    alwaysProcess="yes"
+    >
+    <migXml xmlns="">
+      <rules context="System">
+        <include>
+          <objectSet>
+            <pattern type="Registry">HKLM\Software\Microsoft\Input [IsInputAppPreloadEnabled]</pattern>
+            <pattern type="Registry">HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Scaling [MonitorSize]</pattern>
+          </objectSet>
+        </include>
+      </rules>
+      <rules context="user">
+        <include>
+          <objectSet>
+            <!-- Win32 Startup app toast notification -->
+            <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\RunNotification\* [*]</pattern>
+          </objectSet>
+        </include>
+      </rules>
+    </migXml>
+  </migration>
+</assembly>

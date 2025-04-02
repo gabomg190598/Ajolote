@@ -1,0 +1,9 @@
+[Step]
+    2_FSAuditMode
+[Order]
+    3
+[Description]
+    DRV COMPONENT INSTALLATION
+    PNP RE-SCAN
+    RESET FINGERPRINT <BETA VERSION>
+    

@@ -1,0 +1,8 @@
+[Step]
+    9_FSAuditMode
+[Order]
+    9
+[Description]
+    CLEAN PROCESS phase 2
+    PRE-SYSPREP
+    SET FINAL STEP - SYSPREP

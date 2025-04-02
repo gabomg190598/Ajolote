@@ -1,0 +1,19 @@
+@REM Starting installation of OOBESettings
+
+@IFEQL(Strings,OSArch,x64)
+   @DISABLEWOW64FSREDIRECTION
+@ENDIF
+
+@SingleObj cmd.exe /c   c:\SWSETUP\APP\osupdate.eue\HP\OOBESettings\X\install.cmd
+
+@REM Adding a CDC check is optional and can be used to verify a
+@REM file is present on the hard drive.
+@REM @CDCAppNameOOBESettings
+@REM @CDCFileExist ADD_FULL_PATH_TO_BINARY_HERE
+@REM For example @CDCFileExist "C:\SWSetup\HP Power Manager\Verdiem Energy Saver.ico"
+
+@IFEQL(Strings,OSArch,x64)
+  @ENABLEWOW64FSREDIRECTION
+@ENDIF
+
+@REM Finished installation of OOBESettings

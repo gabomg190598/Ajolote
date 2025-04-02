@@ -1,0 +1,43 @@
+<migration urlid="http://www.microsoft.com/migration/1.0/migxmlext/allfiles">
+<component type="Documents" context="System">
+  <displayName>Sample_Excludes</displayName>
+  <role role="Data">
+    <rules>
+      <unconditionalExclude>
+        <objectSet>
+          <pattern type="File">C:\* [winre.wim]</pattern>
+          <pattern type="File">C:\Recovery\* [*]</pattern>
+          <pattern type="File">C:\appl.zip\* [*]</pattern>
+          <pattern type="File">C:\BTOs\* [*]</pattern>
+          <pattern type="File">C:\sources\* [*]</pattern>
+          <pattern type="File">C:\sw\* [*]</pattern>
+          <pattern type="File">C:\system.sav\fbi\* [*]</pattern>
+          <pattern type="File">C:\system.sav\csimage\* [*]</pattern>
+          <pattern type="File">C:\system.sav\HPValMS\* [*]</pattern>
+          <pattern type="File">C:\system.sav\tweaks\wdt\* [*]</pattern>
+          <pattern type="File">C:\system.sav\util\* [cia.ini]</pattern>
+          <pattern type="File">C:\system.sav\util\* [install.log]</pattern>
+          <pattern type="File">C:\system.sav\util\ScanState\* [*]</pattern>
+          <pattern type="File">C:\system.sav\wdt\* [*]</pattern>
+          <pattern type="File">C:\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\* [~FontCache-*]</pattern>
+          <pattern type="File">C:\Windows\* [bootstat.dat]</pattern>
+        </objectSet>
+      </unconditionalExclude>
+    </rules>
+  </role>
+</component>
+
+    <component type="System" context="System">
+      <displayName>Exclude manufacturing regkey</displayName>
+      <role role="Settings">
+        <rules context="System">
+          <unconditionalExclude>
+            <objectSet>
+              <pattern type="Registry">HKLM\SYSTEM\CurrentControlSet\Control\CI\Policy [ManufacturingMode]</pattern>
+            </objectSet>
+          </unconditionalExclude>
+        </rules>
+      </role>
+    </component>
+
+</migration>

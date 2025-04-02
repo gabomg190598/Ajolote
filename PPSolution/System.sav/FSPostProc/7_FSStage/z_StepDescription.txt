@@ -1,0 +1,9 @@
+[Step]
+    7_FSAuditMode
+[Order]
+    8
+[Description]
+    CLEAN PROCESS PHASE 1
+    CREATE REPORT OF SOFTWARE INSTALLED
+    USMT - STATE CAPTURE
+    

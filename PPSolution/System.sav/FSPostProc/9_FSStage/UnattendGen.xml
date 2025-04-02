@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend">
+    <settings pass="auditUser">
+        <component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <RunSynchronous>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post Processing Reseal Image</Description>
+                    <Order>3</Order>
+                    <Path>cmd.exe /c C:\Windows\Temp\FSAuditMode.cmd</Path>
+                    <WillReboot>Never</WillReboot>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>FS Post Processing clean step</Description>
+                    <Order>1</Order>
+                    <Path>cmd.exe /c IF EXIST C:\Windows\Panther\Unattend rd /s /q C:\Windows\Panther\Unattend</Path>
+                    <WillReboot>Always</WillReboot>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Description>Post Audit Mode Script</Description>
+                    <Order>2</Order>
+                    <Path>cmd.exe /c IF EXIST C:\Windows\Temp\Post_FSAuditMode.cmd C:\Windows\Temp\Post_FSAuditMode.cmd</Path>
+                    <WillReboot>Never</WillReboot>
+                </RunSynchronousCommand>
+            </RunSynchronous>
+            <Generalize>
+                <ForceShutdownNow>false</ForceShutdownNow>
+                <Mode>OOBE</Mode>
+            </Generalize>
+        </component>
+    </settings>
+    <cpi:offlineImage cpi:source="catalog:c:/users/cisnjorg/onedrive - hp inc/csteamshare/windows_catalogs/windows11/install_win11pro22h2_22621_windows 11 pro.clg" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+</unattend>

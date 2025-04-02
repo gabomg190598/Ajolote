@@ -1,0 +1,59 @@
+﻿[CVA File Information]
+CVATimeStamp=20210615T154933
+CVASyntaxVersion=2.1A9
+
+[Software Title]
+US=Log Capture Script
+
+[US.Software Description]
+Script used to capture preinstall image logs
+
+[General]
+PN=P010DR-B2B
+Version=05.05.2021
+Revision=A
+Pass=1
+Type=SWOption
+Category=Preinstall Tool - Image
+TargetPartition=
+SystemMustBeRebooted=0
+VendorName=HP
+VendorVersion=
+
+[SupportedLanguages]
+Languages=GLOBAL
+Countries=GBL
+
+[ProfessionalInnovations]
+HPPI=No
+LearnMore=
+
+[Softpaq]
+SoftpaqNumber=
+SupersededSoftpaqNumber=
+SoftPaqMD5=
+
+[DetailFileInformation]
+
+
+[System Information]
+SysId01=0x0000
+SysName01=HP All-in-One Business PC,0000 MT
+SysId02=0xEEEE
+SysName02= 0000 MT,HP All-in-One Business PC
+
+[Operating Systems]
+NONE=OEM
+
+[Install Execution]
+Install=
+SilentInstall="install.cmd"
+
+[Private]
+Private_SSMCompliant=1
+DPB_Compliant=0
+
+[CVAToolDocumentStamp]
+Generate By CVA Tool V1.1.0.5; Spec V2.1 A9 on 6/15/2021 3:49:33 PM
+Copyright © 2021 HP Development Company, L.P.
+

@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CS>
+	<VERSION>1.0.3</VERSION>
+	<VERSIONNOTES>for MMD image and Coorporate Ready only: both English US and English UK will always Appear starting 19H2 during OOBE (except for VOS.CH OS  or ABJ, ACB,AB2)</VERSIONNOTES>
+	<SYSTEM>Microsoft Windows 10</SYSTEM>
+	<WINVER>20H1-20H2</WINVER>
+	<OFFICEDESCRIPTION>P00VKX.B2Z 2019 C2R - 16.0.13127.20616</OFFICEDESCRIPTION>
+	<OFFICE>P00VKX-B2Z</OFFICE>
+    <HPLOCALIZATION>
+		<A1Y>
+			<COUNTRY>Brazil (English)</COUNTRY>
+			<REGION>Latin America</REGION>
+			<CKeyboard>United States - English</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC-03:00) Brasilia</TZ>
+			<TimeZone>E. South America Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</A1Y>
+		<A2K>
+			<COUNTRY>Philippines (English)</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC+08:00) Taipei</TZ>
+			<TimeZone>Taipei Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</A2K>
+		<A2M>
+			<COUNTRY>Icelandic</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Icelandic</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</TZ>
+			<TimeZone>GMT Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</A2M>
+		<A2N>
+			<COUNTRY>Saudi Arabia</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Arabic (101)</CKeyboard>
+			<Clanguage>1025</Clanguage>
+			<TZ>(UTC+03:00) Baghdad</TZ>
+			<TimeZone>Arabic Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>AR_SA</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-17H</PN>
+			</OFFICE>
+		</A2N>
+		<A2Q>
+			<COUNTRY>Ukraine</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Ukrainian</CKeyboard>
+			<Clanguage>1058</Clanguage>
+			<TZ>(UTC+03:00) Moscow, St. Petersburg</TZ>
+			<TimeZone>Russian Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>UK_UA</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>RU_RU</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-25H</PN>
+				<PN>P00VKT-BDH</PN>
+			</OFFICE>
+		</A2Q>
+		<AB0>
+			<COUNTRY>Taiwan</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>Microsoft zhuyin</CKeyboard>
+			<Clanguage>1028</Clanguage>
+			<TZ>(UTC+08:00) Taipei</TZ>
+			<TimeZone>Taipei Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>ZH_TW</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-ABH</PN>
+			</OFFICE>
+		</AB0>
+		<AB1>
+			<COUNTRY>Korea</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>Microsoft IME</CKeyboard>
+			<Clanguage>1042</Clanguage>
+			<TZ>(UTC+09:00) Seoul</TZ>
+			<TimeZone>Korea Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>KO_KR</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-ADH</PN>
+			</OFFICE>
+		</AB1>
+		<AB2>
+			<COUNTRY>China</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>Microsoft Pinyin</CKeyboard>
+			<Clanguage>2052</Clanguage>
+			<TZ>(UTC+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi</TZ>
+			<TimeZone>China Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>ZH_CN</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-AAH</PN>
+			</OFFICE>
+		</AB2>
+		<AB4>
+			<COUNTRY>Singapore</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC+08:00) Kuala Lumpur, Singapore</TZ>
+			<TimeZone>Singapore Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>ZH_CN</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-AAH</PN>
+			</OFFICE>
+		</AB4>
+		<AB5>
+			<COUNTRY>Hong Kong</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>Microsoft Quick</CKeyboard>
+			<Clanguage>1028</Clanguage>
+			<TZ>(UTC+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi</TZ>
+			<TimeZone>China Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>ZH_TW</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>ZH_CN</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-AAH</PN>
+				<PN>P00VKT-ABH</PN>
+			</OFFICE>
+		</AB5>
+		<AB6>
+			<COUNTRY>France</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>French</CKeyboard>
+			<Clanguage>1036</Clanguage>
+			<TZ>(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</TZ>
+			<TimeZone>Romance Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>FR_FR</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>AR_SA</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-17H</PN>
+				<PN>P00VKT-05H</PN>
+			</OFFICE>
+		</AB6>
+		<AB7>
+			<COUNTRY>Greece</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Greek</CKeyboard>
+			<Clanguage>1032</Clanguage>
+			<TZ>(UTC+02:00) Athens, Bucharest</TZ>
+			<TimeZone>GTB Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EL_GR</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-15H</PN>
+			</OFFICE>
+		</AB7>
+		<AB8>
+			<COUNTRY>Turkey</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Turkish Q</CKeyboard>
+			<Clanguage>1055</Clanguage>
+			<TZ>(UTC+02:00) Istanbul</TZ>
+			<TimeZone>Turkey Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>TR_TR</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-14H</PN>
+			</OFFICE>
+		</AB8>
+		<AB9>
+			<COUNTRY>Portugal</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Portuguese</CKeyboard>
+			<Clanguage>2070</Clanguage>
+			<TZ>(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</TZ>
+			<TimeZone>GMT Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>PT_PT</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-13H</PN>
+			</OFFICE>
+		</AB9>
+		<ABA>
+			<COUNTRY>USA</COUNTRY>
+			<REGION>North America</REGION>
+			<CKeyboard>United States - English</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC-08:00) Pacific Time (US and Canada)</TZ>
+			<TimeZone>Pacific Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</ABA>
+		<ABB>
+			<COUNTRY>United Kingdom</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</TZ>
+			<TimeZone>GMT Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>ET_EE</CODE>
+				<CODE>LT_LT</CODE>
+				<CODE>LV_LV</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</ABB>
+		<ABC>
+			<COUNTRY>Canada (French)</COUNTRY>
+			<REGION>North America</REGION>
+			<CKeyboard>Canadian French</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC-05:00) Eastern Time (US and Canada)</TZ>
+			<TimeZone>Eastern Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>FR_CA</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-05H</PN>
+			</OFFICE>
+		</ABC>
+		<ABD>
+			<COUNTRY>Germany</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>German</CKeyboard>
+			<Clanguage>1031</Clanguage>
+			<TZ>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</TZ>
+			<TimeZone>W. Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>DE_DE</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-04H</PN>
+			</OFFICE>
+		</ABD>
+		<ABE>
+			<COUNTRY>Spain</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Spanish</CKeyboard>
+			<Clanguage>3082</Clanguage>
+			<TZ>(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</TZ>
+			<TimeZone>Romance Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>ES_ES</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>CA_ES</CODE>
+				<CODE>EU_ES</CODE>
+				<CODE>GL_ES</CODE>
+			</LANGUAGES>
+			<LIPS>
+				<CODE>CA_ES</CODE>
+				<CODE>EU_ES</CODE>
+				<CODE>GL_ES</CODE>
+			</LIPS>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-07H</PN>
+			</OFFICE>
+		</ABE>
+		<ABF>
+			<COUNTRY>France</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>French</CKeyboard>
+			<Clanguage>1036</Clanguage>
+			<TZ>(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</TZ>
+			<TimeZone>Romance Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>FR_FR</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-05H</PN>
+			</OFFICE>
+		</ABF>
+		<ABG>
+			<COUNTRY>Australia</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC+10:00) Canberra, Melbourne, Sydney</TZ>
+			<TimeZone>AUS Eastern Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</ABG>
+		<ABH>
+			<COUNTRY>Netherlands</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1043</Clanguage>
+			<TZ>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</TZ>
+			<TimeZone>W. Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>NL_NL</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-33H</PN>
+				<PN>P00VKT-ABH</PN>
+			</OFFICE>
+		</ABH>
+		<ABJ>
+			<COUNTRY>Japan (Japanese)</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>Microsoft IME</CKeyboard>
+			<Clanguage>1041</Clanguage>
+			<TZ>(UTC+09:00) Osaka, Sapporo, Tokyo</TZ>
+			<TimeZone>Tokyo Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>JA_JP</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-29H</PN>
+			</OFFICE>
+		</ABJ>
+		<ABL>
+			<COUNTRY>Canada (English)</COUNTRY>
+			<REGION>North America</REGION>
+			<CKeyboard>United States - English</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC-05:00) Eastern Time (US and Canada)</TZ>
+			<TimeZone>Eastern Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>FR_CA</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-05H</PN>
+			</OFFICE>
+		</ABL>
+		<ABM>
+			<COUNTRY>Mexico</COUNTRY>
+			<REGION>Latin America</REGION>
+			<CKeyboard>Latin American</CKeyboard>
+			<Clanguage>2058</Clanguage>
+			<TZ>(UTC-06:00) Guadalajara, Mexico City, Monterrey</TZ>
+			<TimeZone>Central Standard Time (Mexico)</TimeZone>
+			<LANGUAGES>
+				<CODE>ES_MX</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-07H</PN>
+			</OFFICE>
+		</ABM>
+		<ABN>
+			<COUNTRY>Norway</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Norwegian</CKeyboard>
+			<Clanguage>1044</Clanguage>
+			<TZ>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</TZ>
+			<TimeZone>W. Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>NB_NO</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-09H</PN>
+			</OFFICE>
+		</ABN>
+		<ABT>
+			<COUNTRY>Israel</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Hebrew</CKeyboard>
+			<Clanguage>1037</Clanguage>
+			<TZ>(UTC+02:00) Jerusalem</TZ>
+			<TimeZone>Israel Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>HE_IL</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-BBH</PN>
+			</OFFICE>
+		</ABT>
+		<ABU>
+			<COUNTRY>United Kingdom</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United Kingdom</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</TZ>
+			<TimeZone>GMT Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</ABU>
+		<ABV>
+			<COUNTRY>Saudi Arabia</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Arabic (101)</CKeyboard>
+			<Clanguage>1025</Clanguage>
+			<TZ>(UTC+03:00) Baghdad</TZ>
+			<TimeZone>Arabic Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>AR_SA</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-17H</PN>
+			</OFFICE>
+		</ABV>
+		<ABY>
+			<COUNTRY>Denmark</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Danish</CKeyboard>
+			<Clanguage>1030</Clanguage>
+			<TZ>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</TZ>
+			<TimeZone>W. Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>DA_DK</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-08H</PN>
+			</OFFICE>
+		</ABY>
+		<ABZ>
+			<COUNTRY>Italy</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Italian</CKeyboard>
+			<Clanguage>1040</Clanguage>
+			<TZ>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</TZ>
+			<TimeZone>W. Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>IT_IT</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-06H</PN>
+			</OFFICE>
+		</ABZ>
+		<AC4>
+			<COUNTRY>Brazil</COUNTRY>
+			<REGION>Latin America</REGION>
+			<CKeyboard>Portuguese (Brazilian ABNT)</CKeyboard>
+			<Clanguage>1046</Clanguage>
+			<TZ>(UTC-03:00) Brasilia</TZ>
+			<TimeZone>E. South America Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>PT_BR</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-20H</PN>
+			</OFFICE>
+		</AC4>
+		<AC8>
+			<COUNTRY>Argentina</COUNTRY>
+			<REGION>Latin America</REGION>
+			<CKeyboard>Latin American</CKeyboard>
+			<Clanguage>2058</Clanguage>
+			<TZ>(UTC-03:00) Buenos Aires</TZ>
+			<TimeZone>Argentina Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>ES_MX</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-07H</PN>
+			</OFFICE>
+		</AC8>
+		<ACB>
+			<COUNTRY>Russia</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Russian</CKeyboard>
+			<Clanguage>1049</Clanguage>
+			<TZ>(UTC+03:00) Moscow, St. Petersburg</TZ>
+			<TimeZone>Russian Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>RU_RU</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-25H</PN>
+			</OFFICE>
+		</ACB>
+		<ACF>
+			<COUNTRY>Japan (English)</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC+09:00) Osaka, Sapporo, Tokyo</TZ>
+			<TimeZone>Tokyo Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</ACF>
+		<ACH>
+			<COUNTRY>Mexico</COUNTRY>
+			<REGION>Latin America</REGION>
+			<CKeyboard>United States - English</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC-06:00) Guadalajara, Mexico City, Monterrey</TZ>
+			<TimeZone>Central Standard Time (Mexico)</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</ACH>
+		<ACJ>
+			<COUNTRY>India</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi</TZ>
+			<TimeZone>India Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</ACJ>
+		<ACQ>
+			<COUNTRY>South Africa</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+02:00) Harare, Pretoria</TZ>
+			<TimeZone>South Africa Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</ACQ>
+		<AH3>
+			<COUNTRY>Palistinian Autority</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Arabic (101)</CKeyboard>
+			<Clanguage>1025</Clanguage>
+			<TZ>(UTC+02:00) Gaza, Hebron</TZ>
+			<TimeZone>Egypt Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>AR_SA</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-17H</PN>
+			</OFFICE>
+		</AH3>
+		<AK4>
+			<COUNTRY>Brazil</COUNTRY>
+			<REGION>Latin America</REGION>
+			<CKeyboard>Portuguese (Brazilian ABNT)</CKeyboard>
+			<Clanguage>1046</Clanguage>
+			<TZ>(UTC-03:00) Brasilia</TZ>
+			<TimeZone>E. South America Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>PT_BR</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-20H</PN>
+			</OFFICE>
+		</AK4>
+		<AK6>
+			<COUNTRY>Belgium</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Belgian French</CKeyboard>
+			<Clanguage>1043</Clanguage>
+			<TZ>(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</TZ>
+			<TimeZone>Romance Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>NL_NL</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>DE_DE</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>FR_FR</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-33H</PN>
+				<PN>P00VKT-05H</PN>
+				<PN>P00VKT-04H</PN>
+			</OFFICE>
+		</AK6>
+		<AK8>
+			<COUNTRY>Sweden, Finland</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Swedish</CKeyboard>
+			<Clanguage>1053</Clanguage>
+			<TZ>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</TZ>
+			<TimeZone>W. Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>SV_SE</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>FI_FI</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-35H </PN>
+				<PN>P00VKT-10H</PN>
+			</OFFICE>
+		</AK8>
+		<AK9>
+			<COUNTRY>United Kingdom</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</TZ>
+			<TimeZone>GMT Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</AK9>
+		<AKB>
+			<COUNTRY>Czech Republic, Slovakia</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1029</Clanguage>
+			<TZ>(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</TZ>
+			<TimeZone>Central Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>CS_CZ</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>SK_SK</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-22H</PN>
+				<PN>P00VKT-23H</PN>
+			</OFFICE>
+		</AKB>
+		<AKC>
+			<COUNTRY>Hungary</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1038</Clanguage>
+			<TZ>(UTC+02:00) Athens, Bucharest</TZ>
+			<TimeZone>GTB Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>HU_HU</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-21H</PN>
+			</OFFICE>
+		</AKC>
+		<AKD>
+			<COUNTRY>Poland</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1045</Clanguage>
+			<TZ>(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</TZ>
+			<TimeZone>Central European Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>PL_PL</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-24H</PN>
+			</OFFICE>
+		</AKD>
+		<AKE>
+			<COUNTRY>Romania</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Romanian (Standard)</CKeyboard>
+			<Clanguage>1048</Clanguage>
+			<TZ>(UTC+02:00) Athens, Bucharest</TZ>
+			<TimeZone>GTB Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>RO_RO</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-27H</PN>
+			</OFFICE>
+		</AKE>
+		<AKH>
+			<COUNTRY>Chile</COUNTRY>
+			<REGION>Latin America</REGION>
+			<CKeyboard>Latin American</CKeyboard>
+			<Clanguage>2058</Clanguage>
+			<TZ>(UTC-03:00) Santiago</TZ>
+			<TimeZone>Pacific SA Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>ES_MX</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-07H</PN>
+			</OFFICE>
+		</AKH>
+		<AKJ>
+			<COUNTRY>Israel</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+02:00) Jerusalem</TZ>
+			<TimeZone>Israel Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</AKJ>
+		<AKL>
+			<COUNTRY>Thailand</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC+07:00) Bangkok, Hanoi, Jakarta</TZ>
+			<TimeZone>SE Asia Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>TH_TH</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-28H</PN>
+			</OFFICE>
+		</AKL>
+		<AKQ>
+			<COUNTRY>Serbia</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>9242</Clanguage>
+			<TZ>(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</TZ>
+			<TimeZone>Central European Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>SR_LATN_RS</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-E3H</PN>
+			</OFFICE>
+		</AKQ>
+		<AKR>
+			<COUNTRY>Slovakia</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1051</Clanguage>
+			<TZ>(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</TZ>
+			<TimeZone>Central European Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>SK_SK</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-23H</PN>
+			</OFFICE>
+		</AKR>
+		<AKS>
+			<COUNTRY>Bulgaria</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Bulgarian</CKeyboard>
+			<Clanguage>1026</Clanguage>
+			<TZ>(UTC+02:00) Athens, Bucharest</TZ>
+			<TimeZone>GTB Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>BG_BG</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-26H</PN>
+			</OFFICE>
+		</AKS>
+		<AR6>
+			<COUNTRY>Indonesia</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC+07:00) Bangkok, Hanoi, Jakarta</TZ>
+			<TimeZone>SE Asia Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</AR6>
+		<ARE>
+			<COUNTRY>Malaysia</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC+08:00) Kuala Lumpur, Singapore</TZ>
+			<TimeZone>Singapore Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</ARE>
+		<ARL>
+			<COUNTRY>Poland</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</TZ>
+			<TimeZone>Central European Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>CS_CZ</CODE>
+				<CODE>HU_HU</CODE>
+				<CODE>PL_PL</CODE>
+				<CODE>SK_SK</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-22H</PN>
+				<PN>P00VKT-21H</PN>
+				<PN>P00VKT-24H</PN>
+				<PN>P00VKT-23H</PN>
+			</OFFICE>
+		</ARL>
+		<B10>
+			<COUNTRY>Portugal</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Portuguese</CKeyboard>
+			<Clanguage>2070</Clanguage>
+			<TZ>(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</TZ>
+			<TimeZone>GMT Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>PT_PT</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-13H</PN>
+			</OFFICE>
+		</B10>
+		<B11>
+			<COUNTRY>Saudi Arabia</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+03:00) Baghdad</TZ>
+			<TimeZone>Arabic Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</B11>
+		<B1F>
+			<COUNTRY>USA</COUNTRY>
+			<REGION>North America</REGION>
+			<CKeyboard>Spanish</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC-08:00) Pacific Time (US and Canada)</TZ>
+			<TimeZone>Pacific Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>ES_ES</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-07H</PN>
+			</OFFICE>
+		</B1F>
+		<B1L>
+			<COUNTRY>China</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>Microsoft Pinyin</CKeyboard>
+			<Clanguage>2052</Clanguage>
+			<TZ>(UTC+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi</TZ>
+			<TimeZone>China Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>ZH_CN</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-AAH</PN>
+			</OFFICE>
+		</B1L>
+		<B1R>
+			<COUNTRY>Finland</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</TZ>
+			<TimeZone>Central European Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>ET_EE</CODE>
+				<CODE>LT_LT</CODE>
+				<CODE>LV_LV</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-E4H</PN>
+				<PN>P00VKT-35H</PN>
+				<PN>P00VKT-E1H</PN>
+				<PN>P00VKT-E2H</PN>
+			</OFFICE>
+		</B1R>
+		<B1S>
+			<COUNTRY>Saudi Arabia</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Arabic (101)</CKeyboard>
+			<Clanguage>1025</Clanguage>
+			<TZ>(UTC+03:00) Baghdad</TZ>
+			<TimeZone>Arabic Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>AR_SA</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>FR_FR</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-17H</PN>
+				<PN>P00VKT-05H</PN>
+			</OFFICE>
+		</B1S>
+		<BCM>
+			<COUNTRY>Czech Republic</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Czech</CKeyboard>
+			<Clanguage>1029</Clanguage>
+			<TZ>(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</TZ>
+			<TimeZone>Central Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>CS_CZ</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>SK_SK</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-22H</PN>
+				<PN>P00VKT-23H</PN>
+			</OFFICE>
+		</BCM>
+		<BED>
+			<COUNTRY>Croatia, Slovenia, Serbia</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</TZ>
+			<TimeZone>Central European Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>HR_HR</CODE>
+				<CODE>SL_SI</CODE>
+				<CODE>SR_LATN_RS</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-BCH</PN>
+				<PN>P00VKT-E3H</PN>
+				<PN>P00VKT-BAH</PN>
+			</OFFICE>
+		</BED>
+		<BH4>
+			<COUNTRY>France</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>French</CKeyboard>
+			<Clanguage>1036</Clanguage>
+			<TZ>(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</TZ>
+			<TimeZone>Romance Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>FR_FR</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>AR_SA</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-17H</PN>
+				<PN>P00VKT-05H</PN>
+			</OFFICE>
+		</BH4>
+		<BH5>
+			<COUNTRY>Saudi Arabia, Nigeria, France</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</TZ>
+			<TimeZone>GMT Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>AR_SA</CODE>
+				<CODE>FR_FR</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-17H</PN>
+				<PN>P00VKT-05H</PN>
+			</OFFICE>
+		</BH5>
+		<BHR>
+			<COUNTRY>Mexico, Brazil, USA, Canada</COUNTRY>
+			<REGION>North America</REGION>
+			<CKeyboard>United States - English</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC-08:00) Pacific Time (US and Canada)</TZ>
+			<TimeZone>Pacific Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>ES_MX</CODE>
+				<CODE>PT_BR</CODE>
+				<CODE>FR_CA</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-20H</PN>
+				<PN>P00VKT-05H</PN>
+				<PN>P00VKT-07H</PN>
+			</OFFICE>
+		</BHR>
+		<UUF>
+			<COUNTRY>Australia</COUNTRY>
+			<REGION>Asia Pacific</REGION>
+			<CKeyboard>United States - International</CKeyboard>
+			<Clanguage>1033</Clanguage>
+			<TZ>(UTC+10:00) Canberra, Melbourne, Sydney</TZ>
+			<TimeZone>AUS Eastern Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</UUF>
+		<UUG>
+			<COUNTRY>Belgium</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Belgian French</CKeyboard>
+			<Clanguage>1043</Clanguage>
+			<TZ>(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</TZ>
+			<TimeZone>Romance Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>NL_NL</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>DE_DE</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>FR_FR</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-33H</PN>
+				<PN>P00VKT-05H</PN>
+				<PN>P00VKT-04H</PN>
+			</OFFICE>
+		</UUG>
+		<UUH>
+			<COUNTRY>Columbia</COUNTRY>
+			<REGION>Latin America</REGION>
+			<CKeyboard>Latin American</CKeyboard>
+			<Clanguage>2058</Clanguage>
+			<TZ>(UTC-05:00) Bogota, Lima, Quito</TZ>
+			<TimeZone>SA Pacific Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>ES_MX</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>EN_GB</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+			</OFFICE>
+		</UUH>
+		<UUW>
+			<COUNTRY>Denmark, Sweden, Finland, Norway</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Swedish</CKeyboard>
+			<Clanguage>2057</Clanguage>
+			<TZ>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</TZ>
+			<TimeZone>W. Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>DA_DK</CODE>
+				<CODE>FI_FI</CODE>
+				<CODE>NB_NO</CODE>
+				<CODE>SV_SE</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKX-B2Z</PN>
+				<PN>P00VKT-08H</PN>
+				<PN>P00VKT-35H</PN>
+				<PN>P00VKT-09H</PN>
+				<PN>P00VKT-10H</PN>
+			</OFFICE>
+		</UUW>
+		<UUZ>
+			<COUNTRY>Switzerland</COUNTRY>
+			<REGION>EMEA</REGION>
+			<CKeyboard>Swiss German</CKeyboard>
+			<Clanguage>1031</Clanguage>
+			<TZ>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</TZ>
+			<TimeZone>W. Europe Standard Time</TimeZone>
+			<LANGUAGES>
+				<CODE>DE_DE</CODE>
+				<CODE>EN_GB</CODE>
+				<CODE>EN_US</CODE>
+				<CODE>FR_FR</CODE>
+				<CODE>IT_IT</CODE>
+			</LANGUAGES>
+			<OFFICE>
+				<PN>P00VKT-05H</PN>
+				<PN>P00VKT-04H</PN>
+				<PN>P00VKT-06H</PN>
+			</OFFICE>
+		</UUZ>
+	</HPLOCALIZATION>
+	<DEFINITION>
+		<AR_SA>
+			<NAME>Arabic (Saudi Arabia)</NAME>
+			<TAG>ar-SA</TAG>
+			<ID>1025</ID>
+		</AR_SA>
+		<BG_BG>
+			<NAME>Bulgarian (Bulgaria)</NAME>
+			<TAG>bg-BG</TAG>
+			<ID>1026</ID>
+		</BG_BG>
+		<ZH_CN>
+			<NAME>Chinese (PRC)</NAME>
+			<TAG>zh-CN</TAG>
+			<ID>2052</ID>
+		</ZH_CN>
+		<ZH_TW>
+			<NAME>Chinese (Taiwan)</NAME>
+			<TAG>zh-TW</TAG>
+			<ID>1028</ID>
+		</ZH_TW>
+		<HR_HR>
+			<NAME>Croatian (Croatia)</NAME>
+			<TAG>hr-HR</TAG>
+			<ID>1050</ID>
+		</HR_HR>
+		<CS_CZ>
+			<NAME>Czech (Czech Republic)</NAME>
+			<TAG>cs-CZ</TAG>
+			<ID>1029</ID>
+		</CS_CZ>
+		<DA_DK>
+			<NAME>Danish (Denmark)</NAME>
+			<TAG>da-DK</TAG>
+			<ID>1030</ID>
+		</DA_DK>
+		<NL_NL>
+			<NAME>Dutch (Netherlands)</NAME>
+			<TAG>nl-NL</TAG>
+			<ID>1043</ID>
+		</NL_NL>
+		<EN_US>
+			<NAME>English (United States)</NAME>
+			<TAG>en-US</TAG>
+			<ID>1033</ID>
+		</EN_US>
+		<EN_GB>
+			<NAME>English (United Kingdom)</NAME>
+			<TAG>en-GB</TAG>
+			<ID>2057</ID>
+		</EN_GB>
+		<ET_EE>
+			<NAME>Estonian (Estonia)</NAME>
+			<TAG>et-EE</TAG>
+			<ID>1061</ID>
+		</ET_EE>
+		<FI_FI>
+			<NAME>Finnish (Finland)</NAME>
+			<TAG>fi-FI</TAG>
+			<ID>1035</ID>
+		</FI_FI>
+		<FR_CA>
+			<NAME>French (Canada)</NAME>
+			<TAG>fr-CA</TAG>
+			<ID>3084</ID>
+		</FR_CA>
+		<FR_FR>
+			<NAME>French (France)</NAME>
+			<TAG>fr-FR</TAG>
+			<ID>1036</ID>
+		</FR_FR>
+		<DE_DE>
+			<NAME>German (Germany)</NAME>
+			<TAG>de-DE</TAG>
+			<ID>1031</ID>
+		</DE_DE>
+		<EL_GR>
+			<NAME>Greek (Greece)</NAME>
+			<TAG>el-GR</TAG>
+			<ID>1032</ID>
+		</EL_GR>
+		<HE_IL>
+			<NAME>Hebrew (Israel)</NAME>
+			<TAG>he-IL</TAG>
+			<ID>1037</ID>
+		</HE_IL>
+		<HU_HU>
+			<NAME>Hungarian (Hungary)</NAME>
+			<TAG>hu-HU</TAG>
+			<ID>1038</ID>
+		</HU_HU>
+		<IT_IT>
+			<NAME>Italian (Italy)</NAME>
+			<TAG>it-IT</TAG>
+			<ID>1040</ID>
+		</IT_IT>
+		<JA_JP>
+			<NAME>Japanese (Japan)</NAME>
+			<TAG>ja-JP</TAG>
+			<ID>1041</ID>
+		</JA_JP>
+		<KO_KR>
+			<NAME>Korean (Korea)</NAME>
+			<TAG>ko-KR</TAG>
+			<ID>1042</ID>
+		</KO_KR>
+		<LV_LV>
+			<NAME>Latvian (Latvia)</NAME>
+			<TAG>lv-LV</TAG>
+			<ID>1062</ID>
+		</LV_LV>
+		<LT_LT>
+			<NAME>Lithuanian (Lithuania)</NAME>
+			<TAG>lt-LT</TAG>
+			<ID>1063</ID>
+		</LT_LT>
+		<NB_NO>
+			<NAME>Norwegian, Bokmål (Norway)</NAME>
+			<TAG>nb-NO</TAG>
+			<ID>1044</ID>
+		</NB_NO>
+		<PL_PL>
+			<NAME>Polish (Poland)</NAME>
+			<TAG>pl-PL</TAG>
+			<ID>1045</ID>
+		</PL_PL>
+		<PT_BR>
+			<NAME>Portuguese (Brazil)</NAME>
+			<TAG>pt-BR</TAG>
+			<ID>1046</ID>
+		</PT_BR>
+		<PT_PT>
+			<NAME>Portuguese (Portugal)</NAME>
+			<TAG>pt-PT</TAG>
+			<ID>2070</ID>
+		</PT_PT>
+		<RO_RO>
+			<NAME>Romanian (Romania)</NAME>
+			<TAG>ro-RO</TAG>
+			<ID>1048</ID>
+		</RO_RO>
+		<RU_RU>
+			<NAME>Russian (Russia)</NAME>
+			<TAG>ru-RU</TAG>
+			<ID>1049</ID>
+		</RU_RU>
+		<SR_LATN_RS>
+			<NAME>Serbian (Latin, Serbia)</NAME>
+			<TAG>sr-Latn-RS</TAG>
+			<ID>9242</ID>
+		</SR_LATN_RS>
+		<SK_SK>
+			<NAME>Slovak (Slovakia)</NAME>
+			<TAG>sk-SK</TAG>
+			<ID>1051</ID>
+		</SK_SK>
+		<SL_SI>
+			<NAME>Slovenian (Slovenia)</NAME>
+			<TAG>sl-SI</TAG>
+			<ID>1060</ID>
+		</SL_SI>
+		<ES_MX>
+			<NAME>Spanish (Mexico)</NAME>
+			<TAG>es-MX</TAG>
+			<ID>2058</ID>
+		</ES_MX>
+		<ES_ES>
+			<NAME>Spanish (Spain)</NAME>
+			<TAG>es-ES</TAG>
+			<ID>3082</ID>
+		</ES_ES>
+		<SV_SE>
+			<NAME>Swedish (Sweden)</NAME>
+			<TAG>sv-SE</TAG>
+			<ID>1053</ID>
+		</SV_SE>
+		<TH_TH>
+			<NAME>Thai (Thailand)</NAME>
+			<TAG>th-TH</TAG>
+			<ID>1054</ID>
+		</TH_TH>
+		<TR_TR>
+			<NAME>Turkish (Turkey)</NAME>
+			<TAG>tr-TR</TAG>
+			<ID>1055</ID>
+		</TR_TR>
+		<UK_UA>
+			<NAME>Ukrainian (Ukraine)</NAME>
+			<TAG>uk-UA</TAG>
+			<ID>1058</ID>
+		</UK_UA>
+	</DEFINITION>
+</CS>

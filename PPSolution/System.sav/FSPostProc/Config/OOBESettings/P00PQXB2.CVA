@@ -1,0 +1,95 @@
+﻿[CVA File Information]
+CVATimeStamp=20180910T103039
+CVASyntaxVersion=2.1A9
+
+[Software Title]
+US=Windows OOBE Settings on firstboot V2
+
+[US.Software Description]
+Setup correct oobe seetings
+
+[General]
+PN=P00PQX-B2B
+Version=2018.09.10
+Revision=B
+Pass=1
+Type=Application
+Category=Application - General
+TargetPartition=
+SystemMustBeRebooted=0
+VendorName=HP
+VendorVersion=
+
+[SupportedLanguages]
+Languages=GLOBAL
+Countries=GBL
+
+[ProfessionalInnovations]
+HPPI=No
+LearnMore=
+
+[Softpaq]
+SoftpaqNumber=
+SupersededSoftpaqNumber=
+SoftPaqMD5=
+
+[DetailFileInformation]
+
+
+[System Information]
+SysId01=0x0000
+SysName01= 1,zzz
+
+[Operating Systems]
+W732=OEM
+W732EN=OEM
+W732HB=OEM
+W732HP=OEM
+W732PR=OEM
+W732SE=OEM
+W732UL=OEM
+W764=OEM
+W764EN=OEM
+W764HB=OEM
+W764HP=OEM
+W764PR=OEM
+W764UL=OEM
+W8.132=OEM
+W8.164=OEM
+W8.1ARM32=OEM
+W832=OEM
+W864=OEM
+W8ARM32=OEM
+W8ARM64=OEM
+W8S=OEM
+W8SST=OEM
+WT32=OEM
+WT64=OEM
+WTIOT32=OEM
+WTIOT64=OEM
+WV32=OEM
+WV32EN=OEM
+WV32HB=OEM
+WV32HP=OEM
+WV32PR=OEM
+WV32SE=OEM
+WV32UL=OEM
+WV64=OEM
+WV64EN=OEM
+WV64HB=OEM
+WV64HP=OEM
+WV64PR=OEM
+WV64UL=OEM
+
+[Install Execution]
+Install=
+SilentInstall="install.cmd"
+
+[Private]
+Private_SSMCompliant=1
+DPB_Compliant=0
+
+[CVAToolDocumentStamp]
+Generate By CVA Tool V1.1.0.5; Spec V2.1 A9 on 9/10/2018 10:30:39 AM
+Copyright © 2018 HP Development Company, L.P.
+
