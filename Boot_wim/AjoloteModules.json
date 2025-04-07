@@ -33,7 +33,14 @@
         "filename": "WinPE_languagesetup.ps1",
         "environment":"WinPE",
         "enabled": true
-    },    
+    },
+    {
+        "id": 8,
+        "name": "WinPE_hpiadrivers",
+        "filename": "WinPE_hpiadrivers.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },        
     {
         "id": 9,
         "name": "WinPE_EnableRSAT",
@@ -147,9 +154,16 @@
         "enabled": true
     },
     {
-        "id": 96,
+        "id": 95,
         "name": "WinPE_AddCustomFiles",
         "filename": "WinPE_AddCustomFiles.ps1",
+        "environment":"WinPE",
+        "enabled": true
+    },
+    {
+        "id": 96,
+        "name": "WinPE_DisableCMDTag.ps1",
+        "filename": "WinPE_DisableCMDTag.ps1",
         "environment":"WinPE",
         "enabled": true
     },
