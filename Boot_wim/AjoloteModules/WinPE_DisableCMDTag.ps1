@@ -25,7 +25,7 @@ if ($null -ne $json.JOBREQUEST.DisableCMDTag) {
                     WriteLog -Message "File exists...continuing process"
                  }
                 else{
-                    WriteLog -Message "Path exists... Creating DisableCMDRequest.Tag" - -Verbose
+                    WriteLog -Message "Path exists... Creating DisableCMDRequest.Tag" -Verbose
                     New-Item -Path "$($OsDrive)\Windows\Setup\Scripts" -Name "DisableCMDRequest.tag" -ItemType File -Value "Disable CMD" -Force 
                     WriteLog -Message "==============DisableCMDRequest.tag created SUCCESSFULLY==============" -Verbose
     
